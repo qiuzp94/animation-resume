@@ -5,5 +5,6 @@
 ### 技术栈：
 * 原生JavaScript
 * Prism.js
+* 异步与回调
 
 
