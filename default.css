@@ -66,3 +66,25 @@
 
 
 
+.actions{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .actions>button{
+    margin: 10px;
+    background: rgb(189, 238, 254);
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .actions>button.active{
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+    background:#71BEFF;
+    color:#fff;
+  }
+  .actions>button:focus{
+    outline: none;
+  }
